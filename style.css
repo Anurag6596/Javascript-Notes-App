@@ -1,0 +1,58 @@
+.notes-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .notes-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .notes-container p {
+    font-size: 16px;
+    
+  }
+  
+  form {
+    margin-top: 20px;
+    padding: 6vw 8vw 6vw 8vw;
+    background-image: url("photo-1517842645767-c639042777db.jpeg");
+    width: 84%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  input[type="text"],
+  textarea {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    overflow: hidden;
+    margin-left: 10px;
+    background: #262626;
+  }
+  
+  button {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid cornsilk;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: orchid;
+    transition: background 0.9s;
+    margin-left: 10px;
+  }
+  button:hover{
+    background-color : blueviolet;
+    transition: 1s;
+  }
